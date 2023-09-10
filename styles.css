@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+html {
+    width:100vw;
+    height:100vh;
+}
+
+/*Set display for all elements that need it (pretty much everything)*/
+
+body,
+header,
+img,
+a,
+main,
+div,
+section,
+button,
+h1,
+p,
+h3,
+footer,
+#second-section
+ {
+    display:flex;
+ }
+
+ /*Set flex-direction - row*/
+ 
+.header-box,
+.box-for-link,
+.box-for-first-section,
+#second-section,
+.box-for-button-and-spiral,
+.box-for-social
+ {
+    flex-direction:row;
+  }
+
+ /*Set flex-direction - column*/
+
+body,
+#header,
+.main,
+.main-section,
+.box-for-heading-txt-and-button-and-mobile,
+.box-of-three-parts,
+#third-section,
+.box-for-Louis-txt,
+.footer
+ {
+    flex-direction:column;
+  }
