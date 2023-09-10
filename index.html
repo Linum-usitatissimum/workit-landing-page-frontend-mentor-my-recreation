@@ -4,76 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
- <!-- <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">-->
+ <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Workit landing page</title>
 </head>
 <body>
-  <header>
-    <div><img src="./assets/images/logo-light.svg" alt="workit logo light"></div>
-    <div>Apply for access</div>
+  <header id="header">
+    <div class="header-box purple-box">
+      <img src="./assets/images/logo-light.svg" alt="workit logo light" class="logo">
+      <div class="box-for-link">
+        <a href="" alt="application link for access" class="link">Apply for access</a>
+      </div>
+    </div>
   </header>
-  <main>
-    <section>
-      <div>
-        <div>
-          <div>
-            <img src="./assets/images/bg-pattern-1.svg" alt="A spiral of some sort for decoration">
+  <main class="main">
+    <section class="main-section">
+      <div class="purple-box">
+        <div class="box-for-first-section">
+          <div class="spiral-image">
+            <img src="./assets/images/bg-pattern-1.svg" alt="A spiral of some sort for decoration" class="spiral">
           </div>
-          <div>
-            <h1>Data tailored to your needs.</h1>
-            <button>Learn more</button>
-            <img src="./assets/images/image-hero.webp" alt="Image of a mobile phone.">
+          <div class="box-for-heading-txt-and-button-and-mobile">
+            <h1 id="heading-text">Data tailored to your needs.</h1>
+            <button class="button">Learn more</button>
+            <img src="./assets/images/image-hero.webp" alt="Image of a mobile phone." id="mobile-phone">
           </div>
-          <div>
-            <img src="./assets/images/bg-pattern-2.svg" alt="A spiral of some sort for decoration">
+          <div class="spiral-image">
+            <img src="./assets/images/bg-pattern-2.svg" alt="A spiral of some sort for decoration" class="spiral">
           </div>
         </div>
       </div>
     </section>
-    <section>
-      <div>
-        <div>
-          <div>1</div>
-          <p>Actionable insights</p>
-          <p>Optimize your products, improve customer satisfaction and stay ahead of the competition 
-            with our product data analytics.</p>
-        </div>
+    <section class="main-section" id="second-section">
+      <div class="box-of-three-parts">
+        <div class="number-box">1</div>
+        <p class="second-section-box-header">Actionable insights</p>
+        <p class="second-section-paragraph">Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
       </div>
-      <div>
-        <div>2</div>
-        <p>Data-driven decisions</p>
-        <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help 
+      <div class="box-of-three-parts">
+        <div class="number-box">2</div>
+        <p class="second-section-box-header">Data-driven decisions</p>
+        <p class="second-section-paragraph">Make data-driven decisions with our product data analytics. Our AI-generated reports help 
           you unlock insights hidden in your product data.</p>
       </div>
-      <div>
-        <div>3</div>
-        <p>Always affordable</p>
-        <p>Always affordable pricing that scales with your business. Get top-quality product data 
+      <div class="box-of-three-parts">
+        <div class="number-box">3</div>
+        <p class="second-section-box-header">Always affordable</p>
+        <p class="second-section-paragraph">Always affordable pricing that scales with your business. Get top-quality product data 
           analytics services without hidden costs or unexpected fees.</p>
       </div>
     </section>
-    <section>
-      <div></div>
-      <img src="./assets/images/image-founder.webp" alt="Photograph of the founder, smiling">
-      <div>
-        <h3>Be the first to test</h3>
-        <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
+    <section class="main-section" id="third-section">
+      <div class="empty-box"></div>
+      <img src="./assets/images/image-founder.webp" alt="Photograph of the founder, smiling" id="founder-photo">
+      <div class="box-for-Louis-txt">
+        <h3 class="Louis-box-header">Be the first to test</h3>
+        <p class="paragraph-for-Louis-box">Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
           beta tester for our app and kickstart your company. Apply for access below and I’ll be 
           in touch to schedule a call.</p>
-        <div>
-          <button>Apply for access</button>
-          <img src="./assets/images/bg-pattern-3.svg" alt="Another spiral for decoration purposes">
+        <div class="box-for-button-and-spiral">
+          <button class="button">Apply for access</button>
+          <img src="./assets/images/bg-pattern-3.svg" alt="Another spiral for decoration purposes" class="spiral">
         </div>
       </div>
     </section>
   </main>
-  <footer>
-    <img src="./assets/images/logo-dark.svg" alt="workit logo in dark format">
-    <div>
-      <a href="https://www.facebook.com/"><img src="./assets/images/icon-facebook.svg" alt="Logo for Facebook"></a>
-      <a href="https://twitter.com/"><img src="./assets/images/icon-twitter.svg" alt="Logo for Twitter"></a>
-      <a href="https://www.instagram.com/"><img src="./assets/images/icon-instagram.svg" alt="Logo for Instagram"></a>
+  <footer class="footer">
+    <img src="./assets/images/logo-dark.svg" alt="workit logo in dark format" class="logo">
+    <div class="box-for-social">
+      <a href="https://www.facebook.com/" class="social-link"><img src="./assets/images/icon-facebook.svg" alt="Logo for Facebook" class="social-logo"></a>
+      <a href="https://twitter.com/" class="social-link"><img src="./assets/images/icon-twitter.svg" alt="Logo for Twitter" class="social-logo"></a>
+      <a href="https://www.instagram.com/" class="social-link"><img src="./assets/images/icon-instagram.svg" alt="Logo for Instagram" class="social-logo"></a>
     </div>
   </footer>
 </body>
