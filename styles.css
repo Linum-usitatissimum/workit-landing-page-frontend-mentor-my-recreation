@@ -1,56 +1,328 @@
-* {
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    
-}
 html {
+    margin:0;
     width:100vw;
     height:100vh;
-}
-
-/*Set display for all elements that need it (pretty much everything)*/
-
-body,
-header,
-img,
-a,
-main,
-div,
-section,
-button,
-h1,
-p,
-h3,
-footer,
-#second-section
- {
+    padding:0;
+  }
+  body {
+    margin:0;
     display:flex;
- }
-
- /*Set flex-direction - row*/
- 
-.header-box,
-.box-for-link,
-.box-for-first-section,
-#second-section,
-.box-for-button-and-spiral,
-.box-for-social
- {
-    flex-direction:row;
+    flex-direction:column;
   }
 
- /*Set flex-direction - column*/
+  /*set font-family*/
 
-body,
-#header,
-.main,
-.main-section,
-.box-for-heading-txt-and-button-and-mobile,
-.box-of-three-parts,
-#third-section,
-.box-for-Louis-txt,
-.footer
- {
+  /*set font-size*/
+  
+  p,
+  .link,
+  button.button {
+    font-size:18px;
+  }
+
+  .logo
+  {
+    font-size:20px;
+  }
+  
+  h1
+  
+   {
+    font-size:26px;
+   }
+
+  h3
+
+   {
+    font-size:23px;
+   }
+
+   p.second-section-box-header
+
+   {
+    font-size:20px;
+   }
+
+  /*set font-weight*/
+
+  h1
+   {
+    font-weight:800px;
+   }
+
+  h3
+
+    {
+     font-weight:600px;
+   }
+
+  p.second-section-box-header 
+  {
+    font-weight:bold;
+  }
+
+  .button 
+  {
+    font-weight:bolder;
+  }
+
+
+  /*set color of fonts*/
+
+  #header,
+  .link,
+  .purple-box
+
+  {
+    color:white;
+    
+  }
+
+  #second-section
+   {
+    color:rgb(48, 17, 80);
+  }
+
+  /*height*/ 
+
+  #header {
+    height:50px;
+  }
+  .header-box
+  {
+    height:20%;
+  }
+  .box-for-first-section
+  {
+    height:300px;
+    flex-shrink:2;
+  }
+  .empty-white-box
+  {
+    height:400px;
+    background-color:white;
+  }
+
+  .button 
+  {
+    height:fit-content;
+  }
+
+  #heading-text
+  {
+    height:100px;
+  }
+
+  /*width*/
+
+  .button
+  {
+    width:fit-content;
+  }
+
+  .header-box
+  {
+    width:100vw;
+  }
+
+  #header,
+  .purple-box 
+  {
+    width:100%;
+    margin:0;
+  }
+
+  .logo 
+  {
+    width:60px;
+  }
+
+  #heading-text
+  {
+    width:50vw;
+  }
+
+  /*set padding*/
+
+  .button
+  {
+    padding:7px 10px;
+    text-align:center;
+  }
+
+  .box-of-three-parts 
+  {
+    margin-top:10%;
+  }
+
+/*Curve bottom of purple-box*/
+
+.curve 
+{
+border-radius: 10% 10% 50% 50% / 0% 0% 20% 20%;
+}
+  
+
+ /*position mobile-phone and lock it down*/
+
+  #mobile-phone 
+  {
+    position:absolute;
+    top:40%;
+    left:25%;
+  }
+
+  /*set display to flex*/
+
+  main,
+  header,
+  div,
+  img,
+  section,
+  button,
+  footer,
+  #header,
+  .header-box-purple-box,
+  .logo,
+  .box-for-link,
+  .link,
+  .main,
+  .main-section,
+  .spiral-image,
+  .spiral,
+  .purple-box,
+  .box-for-first-section,
+  .box-for-heading-txt-and-button-and-mobile,
+  #heading-text,
+  .button,
+  #mobile-phone,
+  #second-section,
+  .box-of-three-parts,
+  .number-box,
+  .second-section-box-header,
+  .second-section-paragraph,
+  #third-section,
+  .empty-box,
+  #founder-photo,
+  .box-for-Louis-txt,
+  .Louise-box-header,
+  .paragraph-for-Louis-box,
+  .box-for-button-and-spiral,
+  .footer,
+  .box-for-social,
+  .social-link,
+  .social-logo
+
+  {
+    display:flex;
+  }
+
+  /*set flex-direction to column*/
+
+  .whole-page,
+  .header,
+  .main,
+  .spiral-image,
+  .box-for-heading-txt-and-button-and-mobile,
+  .box-of-three-parts,
+  #third-section,
+  .box-for-Louis-txt,
+  .footer
+   {
     flex-direction:column;
+   }
+
+
+/*set flex-direction to row*/
+
+#second-section,
+.box-for-button-and-spiral
+{
+    flex-direction:row;
+}
+
+/*set justify-content to space-evenly*/
+/*for row*/
+
+.box-for-first-section,
+.box-for-social {
+    justify-content:space-evenly;
+}
+
+
+/*for column*/
+
+
+
+/*set justify-content to space-between*/
+/*for row*/
+
+.header-box
+
+{
+    justify-content:space-between;
+}
+
+
+/*for column*/
+
+
+
+/*set justify-content to center*/
+/*for row*/
+
+
+
+/*for column*/
+
+
+
+/*set justify-content to flex-end*/
+/*for row*/
+
+
+
+/*for column*/
+
+
+
+/*set align-items - center*/
+
+/*row*/
+
+/*column*/
+
+.footer,
+#header,
+.header-box
+{
+    align-items:center;
+}
+
+/*set background-color*/
+.purple-box,
+#header
+
+{
+    background-color:rgb(48, 17, 80);
+}
+
+
+/*@media Queries*/
+
+  @media all and (min-width:800px){
+    body {
+      display:flex;
+      flex-direction:row;
+    }
+  }
+  @media all and (min-width:800px){
+    body {
+      display:flex;
+      flex-direction:row;
+    }
+  }
+  
+  @media all and (min-width:800px){
+    
   }
