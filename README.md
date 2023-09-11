@@ -1,8 +1,8 @@
-#Current status of this project
+# Current status of this project
 
 Currently taking a break from this to do easier projects as I was getting frustrated.
 
-# Frontend Mentor - Workit landing page solution
+## Frontend Mentor - Workit landing page solution
 
 This is a (my - Linum Usitatissimum's) solution to the [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
